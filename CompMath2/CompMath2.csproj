@@ -84,19 +84,11 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="ImplicitDifferenceScheme.cs" />
-    <Compile Include="Mesh3D.cs" />
-    <Compile Include="Model3D.cs" />
-    <Compile Include="SurfaceChart3D.cs" />
     <Compile Include="SurfacePlotModel.cs" />
     <Compile Include="SurfacePlotView.xaml.cs">
       <DependentUpon>SurfacePlotView.xaml</DependentUpon>
     </Compile>
     <Compile Include="SurfacePlotVisual3D.cs" />
-    <Compile Include="TextureMapping.cs" />
-    <Compile Include="TransformMatrix.cs" />
-    <Compile Include="Triangle3D.cs" />
-    <Compile Include="Vertex3D.cs" />
-    <Compile Include="ViewportRect.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -105,9 +97,6 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Chart3D.cs" />
-    <Compile Include="Cone3D.cs" />
-    <Compile Include="Cylinder3D.cs" />
     <Compile Include="ExplicitDifferenceScheme.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
